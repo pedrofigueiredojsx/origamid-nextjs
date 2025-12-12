@@ -7,5 +7,5 @@ export async function revalidatePathAction(path: string) {
 }
 
 export async function revalidateTagAction(tag: string) {
-  revalidateTag(tag)
+  revalidateTag(tag, {})
 }
